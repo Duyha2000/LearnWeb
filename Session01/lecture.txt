@@ -1,0 +1,44 @@
+<div>Block -> 1 khối</div>
+<div>Inline -> trên 1 dòng </div>
+<!-- 30 40 thẻ: div section header footer -->
+<a href="">Đây thẻ là link</a>
+<span>Đây là span</span>
+<img src="https://images.fbox.fpt.vn/wordpress-blog/2023/08/conan-edogawa.jpg" alt="" width="300" height="300">
+<!-- division: phân chia -->
+<!-- br: break -->
+<!-- hr: section header footer-->
+<!-- Toán lý hóa -->
+<!-- ul: unorder list - li -->
+<!-- ol - order li -->
+<div>
+<a href=""></a>
+<span>Xin chào</span>
+<hr>
+</div>
+<div>Xin chào 2</div>
+<!-- Pepsi Coca 7UP -->
+<ul>
+<li>Toán</li>
+<li>Lý</li>
+<li>Hóa</li>
+</ul>
+
+
+<ol>
+<li>Pepsi</li>
+<li>Coca</li>
+<li>7up</li>
+</ol>
+<!-- p: doạn văn h1 -> h6: heading -->
+<h1>Title 1</h1>
+<h3>Title 3</h3>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, aliquid fugit. Libero molestiae earum distinctio ipsum temporibus facere quos quidem a, aliquid, quae explicabo sed vitae perspiciatis, sunt laudantium illum!</p>
+<!-- img src = "https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2020/12/16/c61kpj1fxidgnwiqgz2h/faker-t1-lol"-->
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmnOinkBlHjC3LNq6a1jFKlYYHtXx37lLomQ&s" 
+width="300"
+height="200"
+>
+<!-- Thẻ a: gắn link google khi click, target =_blank để mở tab mới -->
+<a href="https://www.google.com/" target="_blank">Bấm vào đây để vào Google</a>
+<!-- Tạo 1 thẻ a -> gắn link trang web capidemy -->
+<a href="https://web.facebook.com" target="_blank"> xem facebook</a>

@@ -1,0 +1,4 @@
+<h1>Đây là trang web của tôi</h1>
+<p>Chào mừng đến với trang web của tôi. Đây là một ví dụ về cách sử dụng <br> img để hiển thị hình ảnh trên trang web</p>
+<img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2024/10/tai-anh-phong-canh-dep-3.jpg" alt="">
+<p>Trên đây là 1 hình ảnh ngẫu nhiên được sử dụng từ trang web unslash. <br> bạn có thể thay đổi kích thước hình ảnh bằng cách chỉnh độ rộng chiều cao <br> trong thuộc tính 'width' và 'heigh' của thẻ. Bạn có thể thêm 1 mô tả hình <br> ảnh bằng thuộc tính 'alt'</p>

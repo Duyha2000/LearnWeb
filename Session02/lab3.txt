@@ -1,0 +1,21 @@
+ <table border="1">
+        <tr>
+            <th colspan="2"> Thông tin cá nhân </th>
+        </tr>
+
+        <tr>
+            <td> Họ tên </td>
+            <td> Nguyễn Văn A </td>        
+        </tr>
+
+
+        <tr>
+            <td rowspan="2"> Địa chỉ </td>
+            <td> Hà Nội </td>
+        </tr>
+
+        <tr>
+            <td> Hồ Chí Minh </td>
+        </tr>
+
+    </table>

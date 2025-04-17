@@ -1,0 +1,91 @@
+<body>
+<!-- form -->
+<!-- lable -->
+<!-- input: -->
+<!-- button -->
+<form>
+    <!-- label và input là thẻ inline -->
+    <!-- Có 2 cách để xuống dòng: br, bọc lại trong thẻ div (section, p) -->
+    <div>
+    <label>Email</label>
+    <input type="email" />
+    </div>
+    <!-- input: type = "email, number, password, text, date, file" -->
+    <!-- input:có 1 trường gợi ý placeholder -->
+    <div>
+    <label>Password</label>
+    <input type="password" placeholder="Enter your password" />
+    </div>
+
+    <button>Submit</button>
+</form>
+</body>
+
+
+ <form>
+      <!-- checkbox, radio -->
+      <div>
+        <!-- khi label thuộc tính for = input thuộc tính id => click vào label sẽ nhảy vào input -->
+        <label for="email"> Email của bạn: </label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label> Chọn loại thông báo : </label>
+        <input type="checkbox" id="news" />
+        <!-- input type="checkbox" dùng để tick lựa chọn -->
+        <label for="news">Tin tức mới</label>
+
+        <input type="checkbox" id="discount" />
+        <label for="discount"> Khuyến mãi </label>
+      </div>
+
+      <div>
+        <button>Đăng ký</button>
+      </div>
+    </form>
+
+
+<form>
+    <div>
+    <label> Đánh giá (1-5) </label>
+    <input type="text" />
+    </div>
+
+    <div>
+    <label> Bình luận : </label>
+    <textarea cols="20" rows="2"></textarea>
+    <!-- textarea: tạo 1 vùng dữ liệu lớn để nhập -->
+    </div>
+
+    <button>Gửi Feedback</button>
+</form>
+---
+<form>
+<div>
+<label> Họ và tên : </label>
+<input type="text" />
+</div>
+
+<div>
+<label> Chọn ngày giờ </label>
+<input type="date" />
+</div>
+
+<div>
+<label> Loại dịch vụ : </label>
+<!-- select - option: để lựa chọn dropdown xổ xuống -->
+<select name="" id="">
+    <option value="">Tư vấn 1</option>
+    <option value="">Tư vấn 2</option>
+    <option value="">Tư vấn 3</option>
+</select>
+</div>
+
+<div>
+<label for=""> Ghi chú </label>
+<textarea name="" id="" cols="25" rows="2"></textarea>
+</div>
+
+<button>Đặt lịch</button>
+</form>

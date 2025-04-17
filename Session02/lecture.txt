@@ -1,0 +1,31 @@
+<!-- Table -->
+<!-- table -->
+<!-- tr: table row 
+th: table header
+td: table data
+tbody (phần thân)
+-->
+<table border="1">
+<tr>
+    <th>STT</th>
+    <th>Toán</th>
+    <th>Hóa</th>
+</tr>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>8.5</td>
+        <td>9.4</td>
+    </tr>
+        <tr>
+        <td>2</td>
+        <td>8.5</td>
+        <td>9.4</td>
+    </tr>
+        <tr>
+        <td>3</td>
+        <td>8.5</td>
+        <td>9.4</td>
+    </tr>
+</tbody>
+</table>

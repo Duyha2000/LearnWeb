@@ -1,0 +1,10 @@
+<!-- href ="" target = "_blank" -->
+    <ol>
+        <li><a href="https://web.facebook.com" target="_blank">Home</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">About</a></li>
+        <li><a href="https://www.tiktok.com/explore" target="_blank">Contact</a></li>
+    </ol>
+    <h2>Đây là tiêu đề trang chủ</h2>
+    <br>
+    Ctrl S
+    <h3>Đây là nội dung trang chủ</h3>
