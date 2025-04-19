@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- External: 90% -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- http://127.0.0.1:5500/Session03/index.html -->
+    <!-- Có mấy cách: 3 cách -->
+    <!-- Inline CSS -->
+    <!-- Tiêu đề 1: màu đỏ, tiêu đề 2: màu xanh, tiêu đề 3 màu vàng -->
+    <!-- class và id -->
+
+    <h1 class="td1">Tiêu đề 1</h1>
+    <h1 class="td1">Tiêu đề 2</h1>
+    <h1 class="td3">Tiêu đề 3</h1>
+    <p id="id1">Text 1</p>
+    <p id="id2">Text 2</p>
+
+    <!-- CSS font chữ -->
+    <h3 class="title">Tiêu đề H3</h3>
+    <!-- inline > Internal > external -->
+    <!-- Internal CSS -->
+    <!-- <style>
+      h1 {
+        color: red;
+      }
+    </style> -->
+  </body>
+</html>
+
+// CSS:
+h1 {
+  color: red;
+}
+
+/* Class trong CSS: .class-name */
+/* ID trong CSS: #class-name */
+.td1 {
+  color: red;
+}
+
+.td2 {
+  color: blue;
+}
+
+.td3 {
+  color: red;
+}
+
+#id1 {
+  color: yellow;
+}
+
+#id2 {
+  color: green;
+}
+/* CSS class được giống nhau, nhưng id phải khác nhau */
+/* id:  */
+/* 99% class */
+
+/* CSS chữ */
+
+.title {
+  color: black;
+  font-size: 16px;
+  font-weight: 700; /* > 500 là chữ đậm, < 500 chữ nhạt */
+  background-color: white;
+  font-family: "Courier New", Courier, monospace;
+  /* text-decoration: underline; b: bold u: underline i:italic*/
+  /* căn chữ ra giữa */
+  text-align: center;
+}

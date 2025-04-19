@@ -1,0 +1,59 @@
+<body>
+    <!-- B1: Tên font (Nunito, Inter) + "font" -->
+    <!-- B2: Get font -> Copy html và css theo hướng dẫn-->
+    <!-- BT: Lấy font Noto Sans -->
+    <p class="tieude">Feature</p>
+    <p class="tieude1">Special title treatment</p>
+    <p class="noidung">
+      With supporting text below as a nature lead-in to additional content.
+    </p>
+
+    <div class="parent">
+      <button class="nut">Go somewhere</button>
+    </div>
+
+    <p class="chantrang">2 days ago</p>
+  </body>
+
+  /* Lấy font chữ trên mạng. Ví dụ: Nunito */
+/* CSS font: font-family: set trong body ( 1 lần duy nhất) */
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+.tieude {
+  text-align: center;
+  font-size: 20px;
+}
+
+.tieude1 {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.noidung {
+  text-align: center;
+}
+
+/* button là the inline */
+.nut {
+  color: white;
+  background-color: rgb(35, 98, 191);
+  border: 0;
+  outline: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+.chantrang {
+  text-align: center;
+  color: grey;
+  background-color: rgba(128, 128, 128, 0.486);
+}

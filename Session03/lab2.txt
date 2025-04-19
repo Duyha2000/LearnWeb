@@ -1,0 +1,28 @@
+<h1>
+      Đèn Âm Hồn : Phim tôn vinh văn hóa Việt lại đi <br />
+      đạo nhái loạt bom tấn nước ngoài
+    </h1>
+
+    <!-- Cinie - 20 giờ trước trên 1 dòng -->
+    <!-- h1, h2 ,... h6 là thẻ block -->
+    <span class="tieudenho"> Cine -</span>
+    <span class="thoigian"> 20 giờ trước </span>
+
+    <!-- a, img: inline  -->
+    <p>
+      Tác phẩm của đạo diễn Hoàng Nam "học lỏm"nhiều phim kinh dị nổi tiếng
+      <br />
+      nhưng chất lượng kém xa.
+    </p>
+    /* Font chữ của VS CODE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tieudenho {
+  font-weight: 700;
+}
+
+.thoigian {
+  color: rgba(128, 128, 128, 0.764);
+}

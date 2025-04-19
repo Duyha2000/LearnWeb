@@ -1,0 +1,17 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.tieude {
+  color: rgb(74, 178, 238);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.thanbai {
+}
+
+.ketbai {
+  border-left: 3px solid gold;
+  background-color: rgba(255, 166, 0, 0.469);
+}

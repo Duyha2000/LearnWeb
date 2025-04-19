@@ -1,0 +1,57 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.tieude {
+  text-align: left;
+  color: yellow;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.tieude1 {
+  text-align: left;
+  color: blue;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.noidung {
+  text-align: left;
+  color: red;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.ketbai {
+  background-color: yellow;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  text-align: left;
+}
+<body>
+    <p class="tieude">What is CSS ?</p>
+    <p class="tieude1">
+      Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+    </p>
+    <p class="noidung">
+      With CSS, you can control the color, font, the size of text , the spacing
+      between elemens, how elements are positioned and laid out, what <br />
+      background images or background colors are to be used , different devices
+      and screen sizes , and much more !
+    </p>
+    <!-- Montserrat -->
+    <p class="ketbai">
+      <strong> Tip: </strong> the word <strong> cascading </strong> means that a
+      style applied to a parent elements will also apply to all children
+      elements within the parent. So, if you
+      <br />
+      set the colr of the body text to “blue", all headings, paragraphs, and
+      other text elements within the body will also get the same color ( unless
+      <br />
+      you specify somthing else ) !
+    </p>
+  </body>

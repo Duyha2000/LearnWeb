@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Extern al: 90% -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- http://127.0.0.1:5500/Session03/index.html -->
+  <body>
+    <p class="tieude">5. Groups of selectors</p>
+    <p class="thanbai">
+      A comma-separated list of selectos represents the union of all elements
+      selected by each of the individual <br />
+      sellectors in the list. (A comma is U+002C.) For example, in CSS when
+      several selectors share the same <br />
+      declarations, they maybe grouped into a comma- separated list. White space
+      may appear before and/or after the <br />
+      comma.
+    </p>
+
+    <div class="ketbai">
+      <p>CSS examaple :</p>
+      <p>
+        In this example , we condense three rules with identical declations into
+        one. Thus,
+      </p>
+      <code> h1 { font-family : sans-serif }</code>
+      <code> h2 { font-family : sans-serif } </code>
+      <code> h3 { font-family : sans-serif } </code>
+
+      <p>is equivalent to :</p>
+
+      <code> h1,h2,h3 { font-family : sans-serif } </code>
+    </div>
+  </body>
+</html>

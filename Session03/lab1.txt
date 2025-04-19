@@ -1,0 +1,45 @@
+ <h2 class="tieude">Chào mừng đến với trang web của tôi</h2>
+    <p class="noidung">
+      Đây là trang web đầu tiên của tôi . Tôi đang học lập trình web cà đây là
+      sản phẩm của tôi
+    </p>
+
+    <div class="parent">
+      <img
+        class="phongcanhdep"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Landscape-nature-sky-desert_%2824244426371%29.jpg/1600px-Landscape-nature-sky-desert_%2824244426371%29.jpg?20160916043000"
+        alt=" phongcanhdep"
+      />
+    </div>
+
+    <p class="dongcuoi">Trang web được tạo bởi tôi</p>
+
+    .tieude {
+  color: white;
+  background: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.noidung {
+  text-align: center;
+  font-size: 14px;
+}
+
+.phongcanhdep {
+  height: 300px;
+  width: 400px;
+}
+
+/* Thẻ inline không căn giữa được -> thẻ 1 thẻ div cha bao bọc và đặt tên class
+display:flex; justify-content: center; 
+ */
+.parent {
+  display: flex;
+  justify-content: center;
+}
+
+.dongcuoi {
+  text-align: center;
+  font-size: 12px;
+}
