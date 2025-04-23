@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.tieude {
+  font-size: 30px;
+  font-weight: 700;
+  border-left: 7px solid rgb(239, 159, 12);
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.hinhanh {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.baiviet1 {
+  font-size: 25px;
+  color: rgb(207, 193, 193);
+}
+
+.baiviet2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.baiviet3 {
+  font-size: 20px;
+  font-weight: 700;
+}

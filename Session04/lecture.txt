@@ -1,0 +1,85 @@
+ <h1>Xin chào</h1>
+    <!-- line-height: -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+      consequuntur enim porro reiciendis rem minus suscipit sint alias sapiente
+      excepturi repellat iure temporibus tenetur corrupti, dicta unde officiis
+      autem perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Placeat consequuntur enim porro reiciendis rem minus suscipit sint
+      alias sapiente excepturi repellat iure temporibus tenetur corrupti, dicta
+      unde officiis autem perspiciatis? Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Placeat consequuntur enim porro reiciendis rem minus
+      suscipit sint alias sapiente excepturi repellat iure temporibus tenetur
+      corrupti, dicta unde officiis autem perspiciatis?
+    </p>
+
+    *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+body {
+  /* để trong body */
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+p {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* padding: tạo khoảng cách bên trong phần tử */
+/* margin: khoảng cách giữa 2 phần tử */
+
+
+.nopbai {
+  /* font-family: */
+  border-radius: 20px;
+  color: white;
+  background-color: #ae1818;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+/* :hover */
+
+.nopbai:hover {
+  background-color: #1e56ce;
+  transition: all 0.3s linear;
+  transform: scale(1.05);
+}
+<button class="nopbai">Nộp bài</button>

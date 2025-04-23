@@ -1,0 +1,127 @@
+  <h1 class="gioithieu">Khoá học lập trình từ con số 0</h1>
+    <h1 class="gioithieu">Tự tin đi làm sau 6 tháng</h1>
+
+    <ul class="list">
+      <li class="noidung">
+        <img
+          src="https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png"
+          alt=""
+        />
+        <span
+          >Chắc nền tảng, giỏi thực hành - Có ít nhất 2 project sau khóa học
+        </span>
+      </li>
+
+      <li class="noidung">
+        <img
+          src="https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png"
+          alt=""
+        />
+        <span> Tốt nghiệp chinh phục công việc LƯƠNG 8 CHỮ SỐ </span>
+      </li>
+
+      <li class="noidung">
+        <img
+          src="https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png"
+          alt=""
+        />
+
+        <span>
+          Nắm chắc vị trí việc làm tại Rikkeisoft với chứng chỉ tiếng Nhật từ N3
+        </span>
+      </li>
+    </ul>
+    <button class="nut1">Nhận tư vấn 1:1</button>
+    <button class="nut2">Kiểm tra độ phù hợp</button>
+
+/* reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+
+  margin-top: 20px;
+  margin-left: 20px;
+}
+li {
+  /* bỏ dấu . khi làm thẻ li */
+  list-style: none;
+}
+.gioithieu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(119, 13, 161);
+  margin-bottom: 20px;
+}
+
+.noidung {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(119, 13, 161);
+  margin-bottom: 20px;
+}
+
+.nut1 {
+  background-color: none;
+  color: rgb(119, 13, 161);
+  /* border: 1px solid color */
+  border: 1px solid grey;
+  border-radius: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nut1:hover {
+  background-color: rgb(135, 23, 23);
+  color: white;
+}
+
+.nut2 {
+  background-color: none;
+  color: rgb(119, 13, 161);
+  border: 1px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nut2:hover {
+  background-color: red;
+  color: white;
+}
