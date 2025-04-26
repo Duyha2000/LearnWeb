@@ -1,0 +1,89 @@
+<div class="item">
+      <p class="title1">We Provide Many Feature You Can Use</p>
+
+      <p class="title2">
+        You can explore th features that we provide with fun and have their own
+        functions each feature .
+      </p>
+      <!-- hero icons: tick  -->
+      <!-- Bọc text trong thẻ span -->
+      <ul class="danhsach">
+        <li>
+          <i class="fa-regular fa-heart"></i>
+          <span>Powerfull online protection.</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-heart"></i>
+          <span>Internet without borders.</span>
+        </li>
+        <li>
+          <i class="fa-regular fa-heart"></i>
+          <span> Supercharged VPN. </span>
+        </li>
+        <li>
+          <i class="fa-regular fa-heart"></i>
+          <span>No specific time limits.</span>
+        </li>
+      </ul>
+    </div>
+    *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+}
+
+.title1 {
+  font-size: 35px;
+  font-weight: 700;
+  width: 325px;
+  padding-bottom: 15px;
+}
+
+.title2 {
+  width: 371px;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+/* hero icons */
+.danhsach {
+}
+
+li {
+  list-style: none;
+  padding-bottom: 30px;
+}

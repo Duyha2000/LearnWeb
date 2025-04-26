@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.item {
+  position: relative;
+  width: 600px;
+}
+/* 1 chút note: thông thường sẽ set width height cho phần tử cha (.item) thay vì set ở img
+img em sẽ để width: 100% */
+.hinhanh {
+  width: 100%;
+  object-fit: cover;
+  height: 600px;
+}
+
+.title1 {
+  position: absolute;
+  bottom: 182px;
+  left: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  /* set width cho thẻ title */
+
+  width: 411px;
+}
+
+.title2 {
+  position: absolute;
+  bottom: 87px;
+  left: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+ <div class="item">
+      <img
+        src="https://media.licdn.com/dms/image/v2/D4E22AQEiNFPONT6hfQ/feedshare-shrink_800/B4EZQWzSRuHAAg-/0/1735549335146?e=2147483647&v=beta&t=PC6aUs6_KF-XGq6QcigZ_oZA7Oz3oUTWSV4S9EilkrE"
+        alt=""
+        class="hinhanh"
+      />
+      <p class="title1">Angry people at balloon fiesta</p>
+      <p class="title2">Hot air ballons . A bit weaher sensitive.</p>
+    </div>

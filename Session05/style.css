@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 20px 20px;
+}
+
+.item {
+  width: 465px;
+  margin-top: 30px;
+}
+
+.date {
+  text-align: center;
+  color: grey;
+  padding-bottom: 20px;
+}
+
+.tieude {
+  width: 465px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  /* .title: div: block */
+  margin: auto; /* căn giữa thẻ block dùng margin:auto */
+  font-weight: 700;
+}
+
+.hinhanh {
+  width: 465px;
+  object-fit: cover;
+  padding-bottom: 20px;
+  /* mới học, đừng viết mỗi padding ()
+  top left right bottom đều là 20px */
+}
+
+.thanbai {
+  width: 465px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  /* line-height: chiều cao giữa mỗi dòng*/
+  line-height: 40px;
+}
+/* Khi làm button -> bọc lại 1 thẻ div */
+
+.button {
+  /* css button: */
+  border: 1px solid black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+/* căn giữa button*/
+
+.nutbam {
+  display: flex;
+  justify-content: center;
+}

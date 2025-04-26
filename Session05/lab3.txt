@@ -1,0 +1,80 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  /* Rubik */
+  font-family: "Rubik", sans-serif;
+}
+
+.item {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.title1 {
+  width: 450px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  /* thêm font-weight: */
+  font-weight: 700;
+}
+
+.title2 {
+  width: 360px;
+  margin-bottom: 20px;
+}
+
+.nutbam {
+  border: none;
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 10px red;
+  padding: 15px 45px;
+  border-radius: 10px;
+}
+strong {
+  /* CSS font-weight: */
+  font-weight: 700;
+}
+
+<div class="item">
+      <p class="title1">Want anything to be easy with LaslesVPN</p>
+
+      <p class="title2">
+        Provide a network for all your needs wiht ease and fun using
+        <strong>LaselesVPN</strong>
+        discover interesting seatures from us.
+      </p>
+
+      <button class="nutbam">Get Started</button>
+    </div>

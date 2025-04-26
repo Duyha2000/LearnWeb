@@ -1,0 +1,27 @@
+ <!-- <div class="item">
+      <img
+        src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR_8z35WOmgqI15HuofacMh1t5PMK6rqCx1519mgdCTeC7J8cZO"
+        alt=""
+      />
+      <p class="title">Nhìn hình ảnh cầu hôn của H'hen</p>
+    </div> -->
+    <style>
+      .item {
+        position: relative;
+        background-color: gray;
+        /* top - left- right -bottom */
+        /* left: 50px;
+        top: 50px; */
+        width: 300px;
+        /* z-index: 1 */
+      }
+      .title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        /* phần tử nào có z-index lớn hơn sẽ đè phần tử kia xuống */
+        /* z-index: -100; */
+      }
+    </style>
+
+    
