@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Flexbox -->
+    <!-- http://127.0.0.1:5500/Session06/index.html -->
+    <!-- Code form thì em bọc ngoài tên là thẻ form -->
+
+    <form class="bieumau">
+      <p class="tieude">Login To Your Account</p>
+      <!-- input là thẻ inline -> nằm trên 1 dòng -->
+      <!-- C1: break (không khuyến khích) -->
+      <!-- C2: bọc trong thẻ div (nên dùng vì sao này có thể dùng flexbox) -> ở đây a đặt trong class field-->
+      <div class="field">
+        <input type="text" placeholder="Username" class="tennguoidung" />
+      </div>
+
+      <div class="field">
+        <input type="password" placeholder="Password" class="matkhau" />
+      </div>
+
+      <div class="button">
+        <button class="nutbam">Login</button>
+      </div>
+    </form>
+  </body>
+</html>
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.bieumau {
+  width: 200px;
+}
+
+.tieude {
+  color: rgba(13, 180, 231, 0.979);
+  padding-bottom: 20px;
+}
+
+.tennguoidung {
+  width: 100%;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.matkhau {
+  width: 100%;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.button {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(13, 180, 231, 0.979);
+  color: white;
+  border: none;
+}
+.nutbam {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}

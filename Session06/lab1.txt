@@ -1,0 +1,98 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.bieumau {
+  width: 300px;
+}
+
+.tieude {
+  color: blue;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.nut_dangky {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  background-color: rgb(122, 10, 122);
+}
+
+.nut_dangnhap {
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(25, 105, 218, 0.959);
+}
+
+button {
+  color: white;
+}
+
+ <form action="" class="bieumau">
+      <p class="tieude">Register</p>
+      <div><input type="text" placeholder="Fullname" /></div>
+      <div><input type="text" placeholder="E-mail" /></div>
+      <div><input type="text" placeholder="Phone" /></div>
+      <div><input type="text" placeholder="Password" /></div>
+      <div><input type="text" placeholder="Confirm Password" /></div>
+      <div class="nut_dangky"><button>Register</button></div>
+      <div class="nut_dangnhap"><button>Have account? Sign In</button></div>
+    </form>

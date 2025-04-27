@@ -1,0 +1,124 @@
+  <form class="bieumau">
+      <div><label>Email* </label></div>
+
+      <div><input type="text" placeholder="Your Email" /></div>
+      <div><label>Password* </label></div>
+      <div><input type="password" placeholder="Your Password" /></div>
+      <div class="nut_batdau"><button>Get Started</button></div>
+      <div class="nut_dangnhap">
+        <button>
+          <i class="fa-brands fa-google"></i>
+          <span>Sign up with Google</span>
+        </button>
+      </div>
+      <div class="footer">
+        <span> Already have an account? </span>
+        <a href="https:google.com"> Log in </a>
+      </div>
+    </form>
+    *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.bieumau {
+  width: 400px;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid rgba(128, 128, 128, 0.716);
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.nut_batdau {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: rgb(24, 89, 187);
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.nut_batdau button {
+  color: white;
+}
+
+.nut_dangnhap {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(117, 109, 109);
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.nut_dangnhap button {
+  color: black;
+}
+
+span {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: grey;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+}
