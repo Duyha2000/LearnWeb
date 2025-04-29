@@ -1,0 +1,48 @@
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 148, 236);
+  height: 100px;
+  width: 100px;
+} */
+
+/* Căn giữa phần  tử con (theo chiều dọc và ngang */
+/* luôn có 1 phần tử cha (display:flex) */
+/* justify-content: căn theo hàng ngang*/
+/* align-items: căn theo hàng dọc */
+/* .item {
+  color: white;
+} */
+
+.container {
+  display: flex;
+  /* justify-content: ;
+  align-items: ; */
+  /* flex-wrap:  mặc định nowrap (không bao giờ xuống dòng) */
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.item {
+  color: white;
+  width: calc(25% - 10px);
+  background-color: green;
+  height: 100px;
+  /* width: 100px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+    </div>

@@ -1,0 +1,87 @@
+ <div class="container">
+      <div class="Header">Header</div>
+
+      <div class="container2">
+        <div class="Sidebar">Sidebar</div>
+        <div class="Content">Content</div>
+      </div>
+
+      <div class="Footer">Footer</div>
+    </div>
+
+    *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* .container {
+  display: flex;
+} */
+
+.Header {
+  /* display: flex;
+  justify-content: left;
+  align-items: center; */
+  width: 100%;
+  background-color: rgb(67, 121, 223);
+  color: white;
+}
+
+.Sidebar {
+  height: 400px;
+  width: 30%;
+  background-color: green;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.Content {
+  height: 400px;
+  width: 70%;
+  background-color: rgb(240, 22, 15);
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.container2 {
+  display: flex;
+}
+
+.Footer {
+  width: 100%;
+  background-color: rgb(190, 6, 166);
+  color: rgb(255, 255, 255);
+}

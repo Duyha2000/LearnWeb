@@ -1,0 +1,68 @@
+  <div class="container">
+      <!-- Flexbox -->
+      <!-- http://127.0.0.1:5500/Session07/index.html -->
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+    </div>
+    *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(25% - 20px);
+  height: 75px;
+  border-radius: 8px;
+}
+/* Item số 5 chiều rộng gấp đôi các phần tử còn lại -> nth-child (giống span trong python)*/
+.item:nth-child(5) {
+  width: calc(50% - 20px);
+}

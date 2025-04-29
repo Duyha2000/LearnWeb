@@ -1,0 +1,105 @@
+ <header>
+      <div class="bentrai">
+        <img
+          src="https://lasles-vpn-landing-page.vercel.app/assets/Logo.svg"
+          alt=""
+        />
+      </div>
+
+      <div class="chinhgiua">
+        <nav>About</nav>
+        <nav>Feature</nav>
+        <nav>Testimonials</nav>
+        <nav>Help</nav>
+      </div>
+
+      <div class="benphai">
+        <button class="dangnhap">Signin</button>
+        <button class="dangky">Sign up</button>
+      </div>
+    </header>
+
+    *,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+header {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bentrai {
+  padding-left: 100px;
+}
+
+.chinhgiua {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.benphai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-right: 100px;
+}
+
+.dangnhap {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dangky {
+  border: 1px solid rgb(222, 14, 14);
+  border-radius: 20px;
+  color: rgb(217, 19, 19);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+}

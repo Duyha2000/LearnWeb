@@ -1,0 +1,70 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding-top: 20px;
+
+  padding-left: 20px;
+}
+
+.bentrai {
+  padding-left: 30px;
+}
+
+.chinhgiua {
+  display: flex;
+  gap: 20px;
+}
+
+.benphai {
+  padding-right: 30px;
+}
+
+button {
+  background-color: grey;
+  color: white;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-radius: 5px;
+}
