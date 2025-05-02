@@ -1,0 +1,135 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(255, 166, 0, 0.116);
+}
+
+header {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  gap: 30px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+p {
+  line-height: 1.5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.left {
+  width: 50%;
+}
+button {
+  border: 1px solid none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.right {
+  padding-right: 100px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+ <!-- Header: 1 menu phía bên phải (Works, Blog, Contact) -->
+    <!-- header (flex-direction: row-reverse: giúp chuyển thuộc tính sang bên phải) -> ul (flexbox -> gap)-> li li li -->
+
+    <header>
+      <ul>
+        <li>Works</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="left">
+        <h1>
+          Hi, I am John, <br />
+          Creative Technologist
+        </h1>
+        <p>
+          Arnet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <button>Download Resume</button>
+      </section>
+
+      <section class="right">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRegvk9_EM4pjxWryEYbeZslHl-28mU4gux_i90Bi6Xd4WFfydG"
+          alt=""
+        />
+      </section>
+    </main>

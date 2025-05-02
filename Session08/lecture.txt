@@ -1,0 +1,146 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 500px;
+  position: relative;
+}
+.hinhanh {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.nutbam {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  z-index: 10;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* 1 dòng: gồm avatar - 1 dòng chữ -> div: bên trong có avatar và chữ (display: flex, gap, align-item) 
+Gõ circle sẽ làm avatar tròn được như ảnh
+*/
+
+.toanbo_noidung {
+  width: 500px;
+}
+
+.tacgia {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 13px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hinhanh_tacgia {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.ten_tacgia {
+  font-weight: 700;
+}
+
+.ngaythang {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.tieude {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+
+  line-height: 1;
+}
+
+.noidung {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  color: grey;
+  line-height: 1.5;
+}
+ <!-- Flexbox -->
+    <!-- div -> 1 image, 1 button -->
+    <!-- button trên, ảnh dưới -> relative (phần tử cha div), absolute, z-index -->
+    <!-- P1 -->
+    <div class="container">
+      <img
+        class="hinhanh"
+        src="https://spanishsportscards.com/wp-content/uploads/2023/08/Section-2-1.png"
+        alt=""
+      />
+
+      <button class="nutbam">Basketball</button>
+    </div>
+    <!-- P2 -->
+    <main class="toanbo_noidung">
+      <div class="tacgia">
+        <img
+          class="hinhanh_tacgia"
+          src="https://www.artmajeur.com/medias/profile_thumb/j/e/jeffreyscott/profile/profile_jeffrey-scott-1.jpg?v=1671536406"
+          alt=""
+        />
+        <span class="ten_tacgia"> Jake Will. </span>
+      </div>
+
+      <div class="ngaythang">04 June 2023</div>
+      <div class="tieude">
+        5 Exercises Basketball Players Should Be Using To Develop Strength
+      </div>
+      <div class="noidung">
+        This article was written by Jake Willhoite from Healthlisted.com.
+        Strength in basketball isn’t all about a massive body mass or ripped
+        muscles.
+      </div>
+    </main>

@@ -1,0 +1,118 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  width: 1000px;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.202);
+}
+
+.tieude_mobai {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+main {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.top {
+  display: flex;
+  gap: 20px;
+}
+
+.mid {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.tieude_bentrong {
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nam {
+  border: 1px solid rgb(20, 20, 143);
+  background-color: rgb(14, 14, 185);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.tieude_nam {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon {
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon i {
+  font-size: 30px;
+}
