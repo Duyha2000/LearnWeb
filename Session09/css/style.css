@@ -1,0 +1,113 @@
+.wrapper {
+  width: 1440px;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: auto;
+  color: #4f5665;
+  font-weight: 400;
+}
+
+.dangky_dangnhap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.dangky_dangnhap span {
+  font-size: 16px;
+  line-height: auto;
+  color: #0b132a;
+  font-weight: 500;
+}
+
+.dangky_dangnhap button {
+  font-size: 16px;
+  line-height: auto;
+  color: #f53855;
+  font-weight: 500;
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 45px;
+  padding-right: 45px;
+  transition: all linear 0.3s;
+}
+
+button:hover {
+  opacity: 0.65;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  margin-top: 89.38px;
+}
+
+.trai {
+  width: 555px;
+}
+
+.tieude {
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.tieude span {
+  font-size: 50px;
+  line-height: 70px;
+  color: #0b132a;
+  font-weight: 800;
+}
+
+.noidung {
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.phai {
+}
+
+.batdau {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 30px;
+  background-color: #f53838;
+  border-radius: 10px;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  padding-left: 77.5px;
+  padding-right: 77.5px;
+  box-shadow: 0px 20px 35px #f53838;
+}

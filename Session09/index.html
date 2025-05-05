@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--1. Giữ phím "space"  + click chuột -> di chuyển được
+        2. Phóng to/ thu nhỏ: giữ ctrl + scroll chuột
+        3 Click vào 1 điểm + giữ nút Alt => đo được khoảng cách giữa 2 điểm
+        4. Tải ảnh/ icon trên figma:
+        Click vào ảnh/icon => click export => export logo
+        5. Giao diện luôn luôn đẩy vào trái phải 1 đoạn -> container (set 1 class)
+        6. Wrapper: đây là bước đầu tiên cần làm
+        Block(p,div, section, header, main, footer) - inline(span, img, a)
+        
+        ***Các bước làm: ***
+        B1: Lấy font chữ => set trong body 。 Rubik
+        B2: css-reset (tách ra 1 file)
+        B3: code wrapper và container (width + margin: auto)
+        (file code sẽ là style.css)
+        http://127.0.0.1:5500/Session09/index.html
+    -->
+    <div class="container">
+      <header>
+        <!-- trái -->
+        <div class="logo"><img src="image/logo.png" alt="" /></div>
+        <!-- giữa -->
+        <div class="menu">
+          <a href="#">About</a>
+          <a href="#"> Features</a>
+          <a href="#"> Pricing </a>
+          <a href="#"> Testimonials</a>
+          <a href="#"> Help</a>
+        </div>
+        <!-- phải -->
+        <div class="dangky_dangnhap">
+          <span>Sign In</span>
+          <button>Sign Up</button>
+        </div>
+      </header>
+
+      <!-- Main: là body -->
+      <main>
+        <section class="banner">
+          <div class="trai">
+            <p class="tieude">
+              Want anything to be easy with <span>LaslesVPN</span>.
+            </p>
+            <p class="noidung">
+              Provide a network for all your needs with ease and fun using
+              LaslesVPN discover interesting features from us.
+            </p>
+            <button class="batdau">Get Started</button>
+          </div>
+          <div class="phai">
+            <img src="image/banner.png" alt="banner" />
+          </div>
+        </section>
+        <section class=""></section>
+      </main>
+    </div>
+  </body>
+</html>
